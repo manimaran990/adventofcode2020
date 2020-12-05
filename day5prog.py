@@ -41,24 +41,3 @@ with open('day5inp.txt', 'r') as f:
 
 
 print(max(seat_list))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
