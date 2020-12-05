@@ -1,7 +1,4 @@
-#FBFBBFFRLR
 from math import ceil, floor
-
-inp = "FBFBBFFRLR"
 
 def find_seat(inp):
 	rows = inp[:7]
@@ -42,7 +39,7 @@ with open('day5inp.txt', 'r') as f:
 	for line in f.readlines():
 		seat_list.append(find_seat(line.strip()))
 
-print(seat_list)
+
 print(max(seat_list))
 
 
